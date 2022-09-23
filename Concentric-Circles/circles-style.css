@@ -58,9 +58,41 @@ body{
 .footer{
     position: absolute;
     height: 2vh;
-    /* border: 1px solid red; */
     font-size: 0.8rem;
     font-weight: 200;
     margin-left: 5px;
+}
+
+@media screen and (max-width:900px) {
+    .cir1{
+        height: 60vw;
+        width: 60vw;
+    }
+    .cir2{
+        height: 42vw;
+        width: 42vw;
+    }
+    .cir3{
+        height: 22vw;
+        width: 22vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cir1{
+        height: 75vw;
+        width: 75vw;
+    }
+    .cir2{
+        height: 50vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .text-pos{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
 }
 
